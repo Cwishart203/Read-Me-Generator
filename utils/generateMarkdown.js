@@ -64,7 +64,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Tests
-  ${data.tests}
+  ${data.test}
 
   ## License
   [![License Badge](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})

@@ -21,7 +21,7 @@
   Open in the terminal, then type node index.js. Then follow the prompts.
 
   ## Tests
-  undefined
+  N/A
 
   ## License
   [![License Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&?style=plastic&link=https://choosealicense.com/licenses/mit/)](https://choosealicense.com/licenses/mit/)
