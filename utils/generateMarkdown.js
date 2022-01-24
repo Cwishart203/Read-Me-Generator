@@ -46,35 +46,36 @@ function generateMarkdown(data) {
   [![License Badge](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
 
   ## Table of Contents
-    - [Description](#Description)
-    - [Installations](#Installations)
-    - [Usage](#Usage)
-    - [Tests](#Tests)
-    - [License](#License)
-    - [Questions](#Questions)
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Tests](#Tests)
+  - [License](#License)
+  - [Questions](#Questions)
+  - [Contributors](#Contributors)
 
-    ## Description
-    ${data.description}
+  ## Description
+  ${data.description}
 
-    ## Installation
-    ${data.installation}
+  ## Installation
+  ${data.installation}
 
-    ## Usage
-    ${data.usage}
+  ## Usage
+  ${data.usage}
 
-    ## Tests
-    ${data.tests}
+  ## Tests
+  ${data.tests}
 
-    ## License
-    [![License Badge](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
-    </br>
-    This application uses ${data.license} license.
+  ## License
+  [![License Badge](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
+  </br>
+  This application uses ${data.license} license.
 
-    ## Questions
-    You can contact me for questions at [email](mailto:${data.email}), or you can go to my [GitHub](https://github.com/${data.github}).
+  ## Questions
+  You can contact me for questions at my [email](mailto:${data.email}), or you can go to my [GitHub](https://github.com/${data.github}).
 
-    ## Addtional Contributors
-    ${data.contributing}
+  ## Contributors
+  ${data.contributing}
 `;
 }
 
